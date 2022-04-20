@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+header nav .unOrderList {
+    list-style-type: none;
+}
+header nav .unOrderList .list {
+    display: inline-block;
+    padding: 25px;
+
+}
+header nav .unOrderList .list .link {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #555;
+    font-size: 18px;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    padding: 20px 5px ;
+}
+header nav .unOrderList .list:last-child {
+    color: black;
+    background-color: orange;
+    font-weight: bolder;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+header nav .unOrderList .list .link:last-child {
+    color: black;
+    font-size: 19px;
+}
+.hero-card {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.hero-card .card-left {
+    width: 35%;
+}
+.hero-card .card-right {
+    padding: 20px;
+    width: 75%;
+    margin-left: 3%;
+}
+.hero-card img {
+    width: 100%;
+}
+.hero-card .title {
+    font-size: 3rem;
+    padding: 10px 0 30px 0;
+}
+.hero-card .desc {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #555;
+    padding-bottom: 30px;
+}
+.user-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.user-image {
+    width: 10%;
+}
+.user-content .user-role {
+    font-size: 20px;
+    color: #555;
+    text-align: start;
+}
+.user-content .user-role span {
+    font-weight: bolder;
+    color: black;
+}
+.user-image img {
+    width: 80%;
+}
