@@ -261,7 +261,6 @@ header nav .unOrderList .list .link:last-child {
         top: 10%;
         right: 0%;
         z-index: 999;
-        border-top: 1px solid rgba(0, 0, 0, 0.205);
         border-bottom-left-radius: 50px;
         transition: opacity .3s ease-in-out;
         -webkit-transition: opacity .3s ease-in-out;
